@@ -1,0 +1,23 @@
+python -m venv project_django
+
+
+django-admin startproject myproject_website
+
+python -m django startproject myprojectwebsite 
+
+
+python manage.py runserver
+
+CTRL + C : Parar
+
+
+python manage.py startapp core
+
+python manage.py startapp item
+
+python manage.py makemigrations
+
+
+python manage.py migrate
+
+python manage.py createsuperuser
